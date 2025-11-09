@@ -25,3 +25,18 @@ counter.increment()
 counter.increment()
 counter.decrement()
 print(counter.get_value())
+
+
+
+class Student:
+    def __init__(self, first_name, second_name, age, year_institute):
+        self.first_name = first_name
+        self.second_name = second_name
+        self.age = age
+        self.year_institute = year_institute
+
+    def info(self):
+        return f"Студент: {self.first_name} {self.second_name} Возраст: {self.age}, Курс: {self.year_institute}"
+
+student = Student("Петр", "Ивашкин", 22, 3)
+print(student.info())
