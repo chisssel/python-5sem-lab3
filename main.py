@@ -38,7 +38,7 @@ class Student:
         self.year_institute = year_institute
 
     def info(self):
-        return f"Студент: {self.first_name} {self.second_name} Возраст: {self.age}, Курс: {self.year_institute}"
+        return f"Студент: {self.first_name} {self.second_name}, Возраст: {self.age}, Курс: {self.year_institute}"
 
 student = Student("Петр", "Ивашкин", 22, 3)
 print(student.info(), "\n")
