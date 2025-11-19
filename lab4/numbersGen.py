@@ -11,6 +11,5 @@ def prime_numbers_generator(limit):
         if is_prime(number):
             yield number
 
-print("Простые числа до 30:")
 for prime in prime_numbers_generator(30):
     print(prime, end=' ')
